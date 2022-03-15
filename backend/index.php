@@ -1,8 +1,8 @@
 <?php
 
-use Controller\utilisateurs;
 
-require('./Controller/UtilisateursController.php')
+
+require_once('./Controller/DatabaseLinker.php');
   ?>
 <!DOCTYPE html>
 <html>
@@ -15,11 +15,16 @@ require('./Controller/UtilisateursController.php')
     <h1>Bienvenue </h1>
     
     <p>C'est votre tableau de bord.</p>
-    <p><?php $testtest = 1 ?>
+    <p><?php 
+    $pdo = DataBaseLinker::getDataBaseLinker();
+    $pdo ->testLogin();
     
-    <?php $instance = new utilisateurs();
+    
+    ?>
+    
+    <?php  /*$instance = new UtilisateursController();
       $appelNormal = $instance->afficherUtilisateurs(); ?>
-    <?php  echo ("<script>console.log( 'Debug Objects: " . $testtest. "' );</script>");?></p>
+    <?php  echo ("<script>console.log( 'Debug Objects: " . $testtest. "' );</script>")*/?></p>
     </div>
     
   

@@ -1,21 +1,20 @@
 <?php
 namespace Controller;
-use DatabaseLinker;
 
-class utilisateurs {
+
+include('./DatabaseLinker.php');
+
+class utilisateursController {
 
     public function afficherUtilisateurs()
     {
-  
-      $sql = "SELECT utilisateurs.nom_utilisateurs,utilisateurs.prenom_utilisateurs,evenements.lieu_evenement FROM evenements INNER JOIN utilisateurs on evenements.id_utilisateurs=utilisateurs.id_utilisateurs WHERE nom_utilisateurs = 'FILE'
-      ";
-      $test = new DatabaseLinker();
-      $stmt = $test->getConnexion()->prepare($sql);
-     
-    // $stmt->bindParam(":code", $code);
-      $stmt->execute();
-      $obj = $stmt->fetchAll();
-
+      
+      
+      /*$connex = $monPdo->("SELECT utilisateurs.nom_utilisateurs,utilisateurs.prenom_utilisateurs,evenements.lieu_evenement FROM evenements INNER JOIN utilisateurs on evenements.id_utilisateurs=utilisateurs.id_utilisateurs WHERE nom_utilisateurs = 'FILE'");
+     //$stmt->bindParam(":code", $code);
+        $stmt->execute();
+        
+        $obj = $stmt->fetch();
       foreach ($obj as $value)
       {
         $nomUtilisateurs=$value[0];
@@ -25,7 +24,7 @@ class utilisateurs {
       require(".backend/index.php");
       
     }
-    function creerUtilisateurs()
+    /*function creerUtilisateurs()
     {
     
         $sql = "SELECT utilisateurs.nom_utilisateurs,utilisateurs.prenom_utilisateurs,evenements.lieu_evenement FROM evenements INNER JOIN utilisateurs on evenements.id_utilisateurs=utilisateurs.id_utilisateurs WHERE nom_utilisateurs = 'FILE'
@@ -62,7 +61,7 @@ class utilisateurs {
       $obj = $stmt->fetch();
       return $obj;
       var_dump($obj);
-    }
+    }*/
 
 
 
