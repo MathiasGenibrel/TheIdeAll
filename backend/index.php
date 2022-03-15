@@ -1,27 +1,25 @@
 <?php
-  // Initialiser la session
-  session_start();
-  // Vérifiez si l'utilisateur est connecté, sinon redirigez-le vers la page de connexion
-  if(!isset($_SESSION["pseudo"])){
-    header("Location: login.php");
-    exit(); 
-  }
-?>
+
+use Controller\utilisateurs;
+
+require('./Controller/UtilisateursController.php')
+  ?>
 <!DOCTYPE html>
 <html>
   <head>
-  <link rel="stylesheet" href="assets/styles/style.css" />
+  
   </head>
   <body>
-    <?php
-    require_once("assets/header.php");
-    ?>
+
     <div class="sucess">
-    <h1>Bienvenue <?php echo $_SESSION['pseudo']; ?>!</h1>
-    <p><a href ="pages/formUrl.php">C'est votre tableau de bord.</a></p>
-    <a href="login/logout.php">Déconnexion</a>
+    <h1>Bienvenue </h1>
+    
+    <p>C'est votre tableau de bord.</p>
+    <p><?php $testtest = 1 ?>
+    
+    <?php $instance = new utilisateurs();
+      $appelNormal = $instance->afficherUtilisateurs(); ?>
+    <?php  echo ("<script>console.log( 'Debug Objects: " . $testtest. "' );</script>");?></p>
     </div>
-    <?php
-    require_once("assets/footer.php");
-    ?>
+    
   
