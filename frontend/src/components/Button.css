@@ -1,0 +1,14 @@
+.CTA {
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-background);
+  background: linear-gradient(
+    97deg,
+    var(--color-primary) -4%,
+    var(--color-primary--gradient) 128%
+  );
+}

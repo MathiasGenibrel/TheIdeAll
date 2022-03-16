@@ -1,0 +1,8 @@
+.Input input {
+  width: 100%;
+  background-color: var(--color-card__background);
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  height: 48px;
+}
