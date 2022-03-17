@@ -1,0 +1,290 @@
+html
+{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    width: 1512px;
+    height: 1024px;
+    
+}
+
+body
+{
+    margin: 0%;
+    position: relative;
+    width: 1512px;
+    height: 1024px;
+
+    background: #FFFDFA;
+}
+.accueil
+{
+    
+    display: flex;
+    position: relative;
+    width: 1512px;
+    height: 1024px;
+
+    background: #FFFDFA;
+}
+.carousel
+{
+   
+    width: 746px;
+
+    Height:1024px;
+    text-align: center;
+    background: linear-gradient(96.74deg, #FFBD40 -4.14%, #F59F00 127.89%);
+}
+.carouselAccroche
+{
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+
+align-items: center;
+letter-spacing: 0.06em;
+color: #FFFDFA;
+}
+.carouselAccrocheText
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #FFFDFA;
+}
+.star1
+{
+    position: absolute;
+width: 1194px;
+height: 350.33px;
+left: -224px;
+top: 0.00px;
+
+
+}
+.ellipse1
+{
+    
+position: absolute;
+width: 517.5px;
+height: 252.86px;
+left: -77px;
+top: 856px;
+}
+.ellipse2
+{
+    
+    position: absolute;
+    width: 517.5px;
+    height: 252.86px;
+    left: 397px;
+    top: 814px;
+}
+.connexion
+{
+    width: 50%;
+    left: 50.66%;
+   text-align: center;
+    background-color:aliceblue;
+}
+.titre{
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133.9%;
+     align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    
+    /* Secondary */
+    
+    color: #393D3F;
+    
+}
+.titreAccroche{
+position: absolute;
+left: 23.19%;
+right: 23.19%;
+bottom: 59%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+
+/* Secondary */
+
+color: #393D3F;
+}
+.test
+{
+    position: relative;
+    width: 440.91px;
+    height: 588px;
+    left: 152px;
+    top: 218px;
+}
+.button {
+    
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    
+    border: none;
+    width: 400px;
+    height: 52px;
+   
+    
+    /* Linear */
+    
+    background: linear-gradient(96.74deg, #FFBC40 -4.14%, #F59F00 127.89%);
+    border-radius: 4px;
+}
+
+
+input.barre{
+   /* Card_Background */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px 16px;
+   border:none;
+   position: static;
+   width: 400px;
+   height: 48px;
+   left: calc(50% - 400px/2);
+   top: calc(50% - 48px/2 + 9.5px);
+   
+    background: #EDF1F3;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.email
+{
+position: static;
+width: 57px;
+height: 19px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 133.9%;
+/* identical to box height, or 19px */
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+
+/* Secondary */
+
+color: #393D3F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.motDePasse
+{
+position: static;
+width: 121px;
+height: 19px;
+left: 0px;
+top: 0px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 133.9%;
+/* identical to box height, or 19px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+
+/* Secondary */
+
+color: #393D3F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.test2
+{
+    justify-content: space-between;
+    display: flex;
+}
+.checkbox
+{
+width: 132px;
+height: 13px;
+left: 268px;
+top: 167px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 133.9%;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+text-decoration-line: underline;
+color: #393D3F;
+}
+.passeOublie
+{
+margin-top: 6px;
+width: 132px;
+height: 13px;
+left: 268px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 133.9%;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+text-decoration-line: underline;
+
+/* Secondary */
+
+color: #393D3F;
+}
