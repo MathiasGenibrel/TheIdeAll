@@ -30,6 +30,7 @@
 
 .loginForm img {
   margin: 0 auto 34px;
+  height: 100px;
 }
 
 .loginForm h2 {
@@ -66,6 +67,7 @@
   font-size: 10px;
   font-weight: 600;
   line-height: normal;
+  user-select: none;
 }
 
 .loginForm form button {
