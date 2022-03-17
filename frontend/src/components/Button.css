@@ -11,4 +11,9 @@
     var(--color-primary) -4%,
     var(--color-primary--gradient) 128%
   );
+  cursor: pointer;
+}
+
+.CTA:active {
+  transform: scale(0.98);
 }
