@@ -1,8 +1,23 @@
-.Input input {
+.Input article input {
   width: 100%;
   background-color: var(--color-card__background);
   border: none;
   border-radius: 8px;
   font-size: 14px;
   height: 48px;
+  padding-left: 1rem;
+}
+
+.Input article {
+  position: relative;
+}
+
+.Input article svg {
+  position: absolute;
+  right: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 32px;
+  height: 32px;
 }

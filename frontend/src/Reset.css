@@ -1,6 +1,8 @@
 * {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+  color: var(--color-secondary);
+  user-select: none;
 }
 
 html,

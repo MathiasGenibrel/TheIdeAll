@@ -2,14 +2,13 @@ import React from "react";
 import LoginCarousel from "./LoginCarousel";
 import LoginForm from "./LoginForm";
 
+import "./Login.css"
+
 const Login = () => {
   return (
-    <section>
+    <section className="login">
       <LoginCarousel />
       <LoginForm />
-      <p>
-        Vous n'abez pas de compte ? <a href="#">Faites une demande!</a>
-      </p>
     </section>
   );
 };
