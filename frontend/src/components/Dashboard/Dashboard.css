@@ -1,0 +1,32 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: center;
+}
+
+.dashboard h1 {
+  font-size: 32px !important;
+}
+
+.dashboard img {
+  height: 50rem;
+  width: 55rem;
+}
+
+.dashboard a {
+  text-decoration: none;
+  padding: 1rem 2rem !important;
+  width: fit-content;
+  color: var(--color-background);
+  border-radius: 8px;
+  background: linear-gradient(
+    97deg,
+    var(--color-primary) -4%,
+    var(--color-primary--gradient) 128%
+  );
+}
+
+.dashboard a:active {
+  transform: scale(0.98);
+}

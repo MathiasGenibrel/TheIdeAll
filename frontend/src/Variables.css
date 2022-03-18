@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #ffbc40;
+  --color-primary--gradient: #f59f00;
+  --color-secondary: #393d3f;
+  --color-third: #113282;
+  --color-third--accent: #2892D7;
+  --color-accent: #E2F7FD;
+  --color-background: #FFFDFA;
+  --color-card__background: #EDF1F3;
+}

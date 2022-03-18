@@ -1,0 +1,70 @@
+.loginCarousel {
+  background: url(../../assets/Background.webp), linear-gradient(
+    97deg,
+    var(--color-primary) -4%,
+    var(--color-primary--gradient) 128%
+  );
+  background-size: 100% 100%;
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.loginCarousel p,
+.loginCarousel h1 {
+  color: var(--color-background);
+}
+
+.loginCarousel h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 82px 0 24px 0;
+}
+
+.loginCarousel p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.loginCarousel > div {
+  position: absolute;
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 12px;
+  inset: auto 0 64px 0;
+}
+
+.carousel {
+  display: flex;
+  position: relative;
+  transition: all 300ms;
+}
+
+.carousel div {
+  min-width: 100%;
+}
+
+.carousel div article {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.slider {
+  border: none;
+  background-color: var(--color-background);
+  outline: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+.sliderSelected {
+  width: 36px;
+}

@@ -1,0 +1,76 @@
+.loginPart {
+  position: relative;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPart p:last-child {
+  position: absolute;
+  bottom: 24px;
+  font-size: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.loginPart p:last-child a {
+  color: var(--color-third);
+  font-weight: bold;
+}
+
+.loginForm {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm img {
+  margin: 0 auto 34px;
+  height: 100px;
+}
+
+.loginForm h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.loginForm p {
+  font-size: 14px;
+}
+
+.loginForm > p {
+  text-align: center;
+}
+
+.loginForm form {
+  margin-top: 64px;
+}
+
+.loginForm form > label:first-child article {
+  margin-bottom: 24px;
+}
+
+.loginForm form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.loginForm form div a, .loginForm form div label {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: normal;
+  user-select: none;
+  cursor: pointer;
+}
+
+.loginForm form button {
+  margin-top: 64px;
+}
