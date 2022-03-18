@@ -22,7 +22,7 @@ const LoginForm = () => {
             </label>
             <a href="#">Mot de passe oublié</a>
           </div>
-          <Button action="Me connecter" />
+          <Button action="Me connecter" link="dashboard" />
         </form>
       </article>
       <p>
