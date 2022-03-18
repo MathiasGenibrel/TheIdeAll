@@ -1,15 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./Input.css";
 import EmailIcon from "../assets/icons/Email.svg.js";
 import PasswdIcon from "../assets/icons/Password.svg.js";
 
 const Input = (props) => {
-  const [value, setValue] = useState("");
-
   const valueChangeHandler = (event) => {
     console.log(event.target.value)
-    setValue(event.target.value);
   };
 
   const icon =

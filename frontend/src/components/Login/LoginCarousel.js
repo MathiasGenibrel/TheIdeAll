@@ -47,18 +47,18 @@ const displayButtonSlider = (carousel, clickHandler) => {
   return carousel.map((content) => {
     if (content.selected)
       return (
-        <button
+        <div
           onClick={() => clickHandler(content.id)}
           key={content.id}
           className="slider sliderSelected"
-        ></button>
+        ></div>
       );
     return (
-      <button
+      <div
         onClick={() => clickHandler(content.id)}
         key={content.id}
         className="slider"
-      ></button>
+      ></div>
     );
   });
 };

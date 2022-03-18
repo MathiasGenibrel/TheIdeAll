@@ -33,6 +33,8 @@
   position: absolute;
   width: fit-content;
   margin: 0 auto;
+  display: flex;
+  column-gap: 12px;
   inset: auto 0 64px 0;
 }
 
@@ -58,7 +60,6 @@
   outline: none;
   height: 12px;
   width: 12px;
-  margin: 0 6px;
   border-radius: 6px;
   transition: all 300ms;
   cursor: pointer;
