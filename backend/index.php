@@ -51,5 +51,4 @@ setcookie('user_id', '1234',time()+36000);
     <?php  echo ("<script>console.log( 'Debug Objects: " . $testtest. "' );</script>")*/
   ?>
     </div>
-    
   
