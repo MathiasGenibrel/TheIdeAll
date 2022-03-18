@@ -74,3 +74,9 @@
 .loginForm form button {
   margin-top: 64px;
 }
+
+@media only screen and (max-width: 1100px) {
+  .loginPart {
+    width: 100%;
+  }
+}
